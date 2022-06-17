@@ -39,7 +39,7 @@ async def start_(client: Client, message: Message):
         caption=f"""**A Telegram Music Bot Based Mongodb.
  Add Me To Ur Chat For and Help and And Support Click On Buttons  ...
 💞  These Features A.I Based 
-Powered By [ᴢᴀɪᴅ ʙᴏᴛꜱ](t.me/superior_bots) ...
+Powered By [ՏᎷՏᎷ](t.me/PV_SMSM) ...
 **""",
     reply_markup=InlineKeyboardMarkup(
             [
@@ -50,10 +50,10 @@ Powered By [ᴢᴀɪᴅ ʙᴏᴛꜱ](t.me/superior_bots) ...
                 ],
                 [
                     InlineKeyboardButton(
-                        "ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ", url=f"https://t.me/SUPERIOR_BOTS/160"
+                        "SOURCE-CHANNEL", url=f"https://t.me/SMSM_CHANNEL"
                     ),
                     InlineKeyboardButton(
-                        "ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url="https://github.com/ITZ-ZAID/Zaid-Vc-Player"
+                        "SMSM GROUP", url="https://t.me/ELCONTROL_1"
                     )
                 ],
                 [
@@ -61,7 +61,7 @@ Powered By [ᴢᴀɪᴅ ʙᴏᴛꜱ](t.me/superior_bots) ...
                         "📢 ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"
                     ),
                     InlineKeyboardButton(
-                        "ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 🇮🇳", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 👀", url=f"https://t.me/{GROUP_SUPPORT}"
                     )
                 ]
                 
@@ -73,7 +73,7 @@ Powered By [ᴢᴀɪᴅ ʙᴏᴛꜱ](t.me/superior_bots) ...
 @Client.on_message(commandpro(["/start", "/alive"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/dd9ca2b2122dd68ffab0e.png",
+        photo=f"https://telegra.ph/file/ec08988a24673976bc9e3.jpg",
         caption=f"""Thanks For Adding Me To Ur Chat, For Any Query U Can Join Our Support Groups 🔥♥️""",
         reply_markup=InlineKeyboardMarkup(
             [
@@ -89,13 +89,13 @@ async def start(client: Client, message: Message):
 @Client.on_message(command(["repo", "source"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/92688f2c44a35ba673c23.png",
+        photo=f"https://telegra.ph/file/ec08988a24673976bc9e3.jpg",
         caption=f"""Here Is The Source Code Fork And Give Stars ✨""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        " ʀᴇᴘᴏ ⚒️", url=f"https://github.com/ITZ-ZAID/Zaid-Vc-Player")
+                        " DEPLOY ⚒️", url=f"https://t.me/PV_SMSM")
                 ]
             ]
         ),
